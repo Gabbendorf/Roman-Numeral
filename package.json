@@ -1,0 +1,21 @@
+{
+  "name": "Roman-Numeral",
+  "version": "0.0.1",
+  "description": "Roman Numeral Kata",
+  "main": "./index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/ --reporter dot"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "^3.19.0",
+    "mocha": "3.2.0"
+  },
+  "dependencies": {
+    "semver": "^5.5.0"
+  }
+}
