@@ -1,5 +1,5 @@
 {
-  "name": "Roman-Numeral",
+  "name": "roman-numeral",
   "version": "0.0.1",
   "description": "Roman Numeral Kata",
   "main": "./index.js",
@@ -11,11 +11,24 @@
     "test": "mocha test/ --reporter dot"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chai": "3.5.0",
     "eslint": "^3.19.0",
     "mocha": "3.2.0"
   },
   "dependencies": {
+    "es6": "0.0.7",
     "semver": "^5.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabbendorf/Roman-Numeral.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabbendorf/Roman-Numeral/issues"
+  },
+  "homepage": "https://github.com/Gabbendorf/Roman-Numeral#readme"
 }
